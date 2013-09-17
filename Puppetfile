@@ -36,3 +36,16 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "sublime_text_2", "1.1.2"
+github "intellij", "1.3.0"
+github "chrome", "1.1.1"
+github "mongodb", "1.0.4"
+github "property_list_key", "0.1.0"
+github "mou", "1.1.3"
+github "onepassword", "1.0.2"
+#github "osx"
+github "sourcetree", "1.0.0"
+github "tunnelblick", "1.0.2"
+github "dropbox", "1.1.1"
+github "java", "1.1.2""
