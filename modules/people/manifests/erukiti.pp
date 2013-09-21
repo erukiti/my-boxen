@@ -9,6 +9,9 @@ class people::erukiti {
   include chrome
   include dropbox
   include java
+  include vlc
+  include virtualbox
+  include skype
 
   class { 'intellij':
   	edition => 'ultimate',
