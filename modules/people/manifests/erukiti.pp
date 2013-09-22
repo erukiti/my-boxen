@@ -12,6 +12,7 @@ class people::erukiti {
   include vlc
   include virtualbox
   include skype
+  include play
 
   class { 'intellij':
   	edition => 'ultimate',
@@ -21,6 +22,13 @@ class people::erukiti {
   	theme => 'Solarized (Dark)+',
   	css => 'GitHub2'
 	}
+
+  package {
+    [
+      'tmux',
+      'htop',
+    ]:
+  }
 
 #  sublime_text_2::package { 'Emmet':
 #    
