@@ -53,7 +53,4 @@ github "vlc", "1.0.4"
 github "virtualbox", "1.0.5"
 github "skype", "1.0.4"
 
-#mod "play", "0.0.1", :github_url => "https://github.com/erukiti/puppet-play"
-#github "play", "0.0.4", :repo => "erukiti/puppet-play"
-
 

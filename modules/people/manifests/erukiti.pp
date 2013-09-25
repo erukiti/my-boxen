@@ -12,7 +12,6 @@ class people::erukiti {
   include vlc
   include virtualbox
   include skype
-  include play
 
   class { 'intellij':
   	edition => 'ultimate',
@@ -27,6 +26,12 @@ class people::erukiti {
     [
       'tmux',
       'htop',
+      'play',
+      'scala',
+      'sbt',
+      'phantomjs',
+      'jq',
+      'wget',
     ]:
   }
 
