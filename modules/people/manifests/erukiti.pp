@@ -33,6 +33,7 @@ class people::erukiti {
       'jq',
       'wget',
       'maven',
+      'xz',
     ]:
   }
 
