@@ -32,6 +32,7 @@ class people::erukiti {
       'phantomjs',
       'jq',
       'wget',
+      'maven',
     ]:
   }
 
