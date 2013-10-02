@@ -34,6 +34,9 @@ class people::erukiti {
       'wget',
       'maven',
       'xz',
+      'fuse4x-kext',
+      'sshfs',
+      'tree',
     ]:
   }
 
