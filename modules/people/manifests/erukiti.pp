@@ -12,6 +12,8 @@ class people::erukiti {
   include vlc
   include virtualbox
   include skype
+  include vagrant
+  include mysql 
 
   class { 'intellij':
   	edition => 'ultimate',
