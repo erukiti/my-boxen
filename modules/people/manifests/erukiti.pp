@@ -1,5 +1,5 @@
 class people::erukiti {
-	include mongodb
+#	include mongodb
 	include mou
 	include mou::themes
 	include onepassword
@@ -14,6 +14,7 @@ class people::erukiti {
   include skype
   include vagrant
   include mysql 
+  include qt
 
   class { 'intellij':
   	edition => 'ultimate',
@@ -39,6 +40,7 @@ class people::erukiti {
       'fuse4x-kext',
       'sshfs',
       'tree',
+      'packer'
     ]:
   }
 
