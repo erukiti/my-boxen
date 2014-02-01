@@ -74,4 +74,5 @@ github "skype",      "1.0.7"
 github "vagrant",    "3.0.0"
 github "mysql",      "1.2.0"
 github "qt",         "1.2.1"
+github "nvm",        "1.0.0"
 

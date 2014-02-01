@@ -4,11 +4,6 @@ GITHUBTARBALL
     boxen (3.3.4)
 
 GITHUBTARBALL
-  remote: boxen/puppet-dnsmasq
-  specs:
-    dnsmasq (1.0.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.1.1)
@@ -16,12 +11,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
-    foreman (1.0.0)
+    dnsmasq (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
     dropbox (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-foreman
+  specs:
+    foreman (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -84,6 +84,11 @@ GITHUBTARBALL
     nodejs (3.3.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-nvm
+  specs:
+    nvm (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-onepassword
   specs:
     onepassword (1.0.2)
@@ -92,6 +97,16 @@ GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-phantomjs
+  specs:
+    phantomjs (2.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-pkgconfig
+  specs:
+    pkgconfig (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-property_list_key
@@ -169,11 +184,11 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 DEPENDENCIES
-  autoconf (= 1.0.0)
-  boxen (= 3.0.2)
+  boxen (= 3.3.4)
   chrome (= 1.1.1)
-  dnsmasq (= 1.0.0)
+  dnsmasq (= 1.0.1)
   dropbox (= 1.1.1)
+  foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
   go (= 1.0.0)
@@ -186,13 +201,16 @@ DEPENDENCIES
   mou (= 1.1.3)
   mysql (= 1.2.0)
   nginx (= 1.4.2)
-  nodejs (= 3.2.9)
+  nodejs (= 3.3.0)
+  nvm (= 1.0.0)
   onepassword (= 1.0.2)
   openssl (= 1.0.0)
+  phantomjs (= 2.0.2)
+  pkgconfig (= 1.0.0)
   property_list_key (= 0.1.0)
   qt (= 1.2.1)
   repository (= 2.2.0)
-  ruby (= 6.3.4)
+  ruby (= 6.7.2)
   skype (= 1.0.7)
   sourcetree (= 1.0.0)
   stdlib (= 4.1.0)

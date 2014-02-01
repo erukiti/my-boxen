@@ -1,5 +1,5 @@
 class people::erukiti {
-#	include mongodb
+	include mongodb
 	include mou
 	include mou::themes
 	include onepassword
@@ -15,10 +15,19 @@ class people::erukiti {
   include vagrant
   include mysql 
   include qt
+#  include nvm
 
   class { 'intellij':
   	edition => 'ultimate',
   }
+
+  class
+  {
+      'nodejs::global': version => 'v0.10'
+  }
+  # 以下、npm で管理すべきものを追加していく
+  nodejs::module { 'bower': node_version => 'v0.10' }
+  nodejs::module { 'grunt': node_version => 'v0.10' }
 
   mou::preferences { 'Mou':
   	theme => 'Solarized (Dark)+',
